@@ -20,6 +20,12 @@ class BindEventHandlers extends Component {
     //     console.log(this);
     // }
 
+    clickHandler = () => {
+      this.setState({
+        message: 'goodbye'
+      })
+    }
+
   render() {
     return (
       <div>
