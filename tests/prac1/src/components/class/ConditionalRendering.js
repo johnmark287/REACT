@@ -9,17 +9,17 @@ export class UserGreeting extends Component {
       }
     }
   render() {
-
+    // short circuit operator
     return this.state.isLoggedIn && <div>Welcome Quan</div>
 
-    // 1st approach
+    // Ternary conditional operator
     // return (
     //   this.state.isLoggedIn?
     //   <div>Welcome Quan</div> :
     //   <div>Welcome guest</div>
     // )
 
-    // 2nd approach
+    // element variable approach
     // let message
     // if (this.state.isLoggedIn) {
     //   message = <div>Welcome Quan</div>
@@ -29,7 +29,7 @@ export class UserGreeting extends Component {
 
     // return <div>{message}</div>
 
-    // 3rd approach
+    // if/else approach
     // if (this.state.isLoggedIn) {
     //     return <div><p>Welcome Quan</p></div>
     // } else {
