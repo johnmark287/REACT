@@ -6,8 +6,8 @@ import ParentComponent from './components/class/ParentComponent';
 import ClassCounter from './components/function/useState/ClassCounter';
 import HookCounterTwo from './components/function/useState/HookCounterTwo';
 import HookWithObjects from './components/function/useState/HookWithObjects';
-import UserGreeting from './components/class/UserGreeting';
-
+import ConditionalRendering from './components/class/ConditionalRendering';
+import NameList from './components/function/NameList';
 
 function App() {
   return (
@@ -18,7 +18,8 @@ function App() {
       {/* <ClassCounter /> */}
       {/* <HookCounterTwo /> */}
       {/* <HookWithObjects /> */}
-      <UserGreeting />
+      {/* <ConditionalRendering /> */}
+      <NameList />
     </div>
   );
 }
