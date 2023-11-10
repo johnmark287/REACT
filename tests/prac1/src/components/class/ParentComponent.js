@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import ChildComponent from './ChildComponent'
 
+
+// Methods as Props
 class ParentComponent extends Component {
 
     constructor(props) {

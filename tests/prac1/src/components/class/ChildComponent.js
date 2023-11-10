@@ -1,5 +1,6 @@
 import React from 'react'
-
+// Parent child communication
+// Method as prop
 function ChildComponent(props) {
   return (
     <div>

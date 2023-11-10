@@ -20,7 +20,7 @@ export const Step3 = ({onPrevious, onSubmit, formState, onFieldValueChange }) =>
             /><br/>
             <input 
                 name="password" 
-                type="text" 
+                type="password" 
                 placeholder='Enter Yor Password'
                 value={formState["password"]}
                 onChange={onFieldValueChange}

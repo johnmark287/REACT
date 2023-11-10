@@ -19,7 +19,7 @@ export const Step = ({onNext, formState, onFieldValueChange }) => {
 			/><br/>
 			<input 
 				name='email' 
-				type="text" 
+				type="password" 
 				placeholder='Enter Email' 
 				value={formState.password}
 				onChange={onFieldValueChange}
