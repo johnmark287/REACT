@@ -1,0 +1,64 @@
+# outline for 14th Nov 2023
+
+1. navigation
+2. Components
+3. Hooks
+
+# Navigation(directories)
+- Public - for pics
+- src files are accessed from roots.
+<!-- - React is a single page  -->
+- index.html - contains the root.
+
+# Components
+- Component based App
+- For code reuseability and maintainability.
+
+## Functional Components
+- They are basically functions.
+- Arrow Functions.
+- The pages folder in components contains a colection of components.
+- rafc - React arrow function component.
+- Human Computer Interaction(UI/UX)
+
+# Hooks
+- gives access to the component's lifecycle
+
+## Component's lifecycle
+Consists of functions that take us to specific componet.
+- init
+- component didMount
+- component didUpdate
+- render
+
+### Phases
+- mount - adding a child to a tree(DOM).
+    - constructor
+    - render
+    - componentdidMount - for initial value.
+- update - 
+    - shoulComponentUpdate - takes whole sate and new state.
+    - render - after updating its rendered (deleted and rendered afresh).
+    - componentdidUpdate(found in body tags)
+- unmount - deleting a child from a tree(DOM) to save resources
+    - componentWillUnmount.
+
+// useEffect
+
+
+# naming convention
+- camel - used with variables and function names.
+- snake - for folders
+- pascal - for classes, components.
+
+# interface
+- Breakdown the problem
+
+
+# Assignment
+- Paginator implementation.
+- react-router-dom
+- create a simple app with the following:
+    - Home
+    - Contact
+    - About

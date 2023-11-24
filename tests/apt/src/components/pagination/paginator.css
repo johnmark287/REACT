@@ -1,0 +1,22 @@
+*{
+    margin: 09;
+    padding: 0100;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    padding: 10px;
+    background: #20b2aa;
+    /* background: #203bb2; */
+}
+.paginator {
+    display: flex;
+    background: #fff;
+    padding: 8px;
+    border-radius: 50px;
+}

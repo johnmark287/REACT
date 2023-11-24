@@ -1,0 +1,32 @@
+#counter {
+	width: 200;
+	padding: 10px;
+	background-color: rgb(24, 223, 223);
+	border-radius: 20px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.btn {
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 50px;
+	border-radius: 15px;
+}
+
+#add:hover {
+	background-color: yellow;
+}
+
+#minus:hover {
+	background-color: red;
+}
+
+.value {
+	font-size: 50px;
+}
