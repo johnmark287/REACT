@@ -7,7 +7,8 @@ import ClassCounter from './components/function/useState/ClassCounter';
 import HookCounterTwo from './components/function/useState/HookCounterTwo';
 import HookWithObjects from './components/function/useState/HookWithObjects';
 import ConditionalRendering from './components/class/ConditionalRendering';
-import NameList from './components/function/NameList';
+import PersonList from './components/function/PersonList';
+import StyleSheet from './components/function/styling/StyleSheet';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <HookCounterTwo /> */}
       {/* <HookWithObjects /> */}
       {/* <ConditionalRendering /> */}
-      <NameList />
+      {/* <PersonList /> */}
+      <StyleSheet primary={false}/>
     </div>
   );
 }
