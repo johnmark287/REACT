@@ -11,8 +11,6 @@ function App() {
     <div className="App">
 		<Avator image={image} radius={75} size={120}></Avator>
 		<Counter />
-		<WizardForm />
-
 		<Products
         products={[
 				"mango",
