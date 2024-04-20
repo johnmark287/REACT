@@ -1,0 +1,16 @@
+Creating a social app
+
+Auth system
+has a home page to expore posts
+allows to like and save post
+Search functionality
+Displays related posts
+edit profile
+
+Tech stack:
+Tailwind
+React
+REact query
+Tan query
+appwrite
+TS
